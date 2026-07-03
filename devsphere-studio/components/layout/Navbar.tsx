@@ -16,7 +16,7 @@ export default function Navbar() {
                 <Link href="/contact" className="hover:text-gray-400">Contact</Link>
             </div>
             <div className="space-x-4 container mx-auto text-right">
-                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Contact Me</button>
+                <button className="bg-blue-400 hover:bg-blue-700 text-black font-bold py-2 px-4 rounded">Contact Me</button>
             </div>
 
         </div>
