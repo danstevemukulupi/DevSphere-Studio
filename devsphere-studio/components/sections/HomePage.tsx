@@ -1,10 +1,13 @@
+
 export default function HomePage() {
   return (
+   
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
-      <h1 className="text-6xl font-bold">Welcome to DevSphere Studio</h1>
+      <p className="text-6xl font-bold">Engineering Your Vision, One Line of Code at a Time.</p>
       <p className="mt-4 text-xl text-gray-600">
-      Home
+      Not Useful
       </p>
     </div>
+   
   );
 }
