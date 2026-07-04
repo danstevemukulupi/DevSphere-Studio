@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Navbar() {
 
   return (
-    <nav className="bg-gray-800 text-white py-4">           
+    <nav className="bg-gray-900 text-white py-4">           
         <div className="container mx-auto flex justify-between items-center">
             <div className="text-lg font-bold container mx-auto text-left">DevSphere Studio</div>
             <div className="space-x-4 container mx-auto text-center">
