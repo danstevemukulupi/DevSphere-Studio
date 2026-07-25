@@ -3,7 +3,8 @@ import Navbar from "../layout/Navbar";
 import Footer from "../layout/Footer";
 import React from "react"; 
 import Image from "next/image";
-import { Container, Row, Col } from "react-bootstrap"; 
+import Link from "next/link";
+//import { Container, Row, Col } from "react-bootstrap"; 
 
 
 export default function Homep() {
@@ -110,16 +111,20 @@ export default function Homep() {
                  Designing and implementing bespoke <br />
                  software systems tailored to your unique <br />
                   business needs.
-              </p> 
-              
+              </p>    
           </div>
           </div>
-          </div>
-         
+          </div> 
           <br />
           <br />
           <br/>
-
+          <Link href="/services">
+          <h1 className="hover:text-green-200 hover:underline underline-offset-6 transition duration-300 text-xl font-bold text-blue-300">
+            Learn More About My Services  
+            <span className="ml-8">→</span>
+            </h1>
+            
+          </Link>
       </div>
      <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-gray-800">
       <h1 className="text-4xl font-bold text-white">Features Projects</h1>
@@ -143,12 +148,9 @@ export default function Homep() {
                 A full-featured e-commerce solution with a modern storefront, <br />
                 product management, and a secure checkout process. Built with <br />
                 Next.js and integrated with Stripe for payments.
-              </p> 
-             
+              </p>   
           </div>
           </div>
-      
-         
             <div className="bg-gray-700 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
                <div className="relative w-full h-48 md:h-56">
                 <Image
@@ -202,12 +204,35 @@ export default function Homep() {
 
       </div>
       <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-gray-900">
-      <h1 className="text-4xl font-bold text-white">Meet The Developer</h1>
-      <p className="mt-4 text-xl text-gray-400">I'am a passionate software developer with knack for turning complex problems into elegant, user-friendly <br />
+        <div className="flex items-center justify-center h-40 mb-50">
+                <Image
+                  src="/idea.png"
+                  alt="project idea"
+                  width={1800}
+                  height={1800}
+                  className="object-contain"  
+                />
+              </div>
+
+        <div className="flex items-center gap-8"> 
+           <Image
+                  src="/dev.png"
+                  alt="developer"
+                  width={800}
+                  height={800}
+                  className="object-contain"  
+                />
+       <div>         
+      <h1 className="text-5xl font-bold text-white">Meet The Developer</h1>
+      
+      <p className="mt-4 text-2xl text-gray-400 max-w-2xl">
+      I'am a passionate software developer with knack for turning complex problems into elegant, user-friendly <br />
       solutions. with years of experience across the techn stack, i'm dedicated to delivering high-quality code and <br />
       exceptional results.
 
       </p>
+      </div>
+      </div>
       </div>
        <hr className="border-gray-700 "></hr>
     <Footer />
