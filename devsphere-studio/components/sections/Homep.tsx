@@ -196,7 +196,9 @@ export default function Homep() {
           </div>
          <div className="space-x-4 container mx-auto text-center">
           <br/>
-                <button className="bg-gray-700 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded mt-10">Explore All Projects</button>                  
+               <Link href="/portfolio">
+                <button className="bg-gray-700 hover:bg-green-200 hover:text-black text-white  font-bold py-4 px-8 rounded mt-10">Explore All Projects</button>
+                </Link>               
          </div>
           <br />
           <br />
@@ -229,8 +231,14 @@ export default function Homep() {
       I'am a passionate software developer with knack for turning complex problems into elegant, user-friendly <br />
       solutions. with years of experience across the techn stack, i'm dedicated to delivering high-quality code and <br />
       exceptional results.
-
       </p>
+      <Link href="/about">
+          <h1 className="hover:text-green-200 hover:underline underline-offset-6 mt-6 transition duration-300 text-xl font-bold text-blue-300">
+            Learn more about my journey  
+            <span className="ml-8">→</span>
+            </h1>
+            
+          </Link>
       </div>
       </div>
       </div>
