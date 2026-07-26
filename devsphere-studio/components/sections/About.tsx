@@ -10,6 +10,7 @@ export default function About() {
         <br />
         <br />
         <br />
+        
         <h1 className="text-5xl font-bold ">About Me</h1>
         <p className="mt-4 text-xl text-gray-400 ">
           I am a dedicated and passionate software developer with a strong background in creating robust, scalable, and <br />
@@ -25,6 +26,7 @@ export default function About() {
           <br/>
                 <button className="bg-blue-400 hover:bg-blue-700 text-black py-2 px-4 rounded">Let's Work Together</button>
             </div>
+            
            <br />
         <br />
         <br />
@@ -211,10 +213,6 @@ export default function About() {
             <br />
             <br />
             <br/>
-
-       
-
-
       </div>
        <hr className="border-gray-700 "></hr>
       <Footer />
