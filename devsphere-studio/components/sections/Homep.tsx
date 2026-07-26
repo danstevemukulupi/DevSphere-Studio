@@ -143,11 +143,11 @@ export default function Homep() {
               </div>
               <br />
               <div className="p-8">
-              <h2 className="text-2xl font-bold text-white-600 mb-4">E-Commerce Platform "ShopSphere</h2>
+              <h2 className="text-2xl font-bold text-white-600 mb-4">Blockchain-Based Secure E-Voting DApp</h2>
               <p className="text-gray-400">
-                A full-featured e-commerce solution with a modern storefront, <br />
-                product management, and a secure checkout process. Built with <br />
-                Next.js and integrated with Stripe for payments.
+                A decentralized application for secure and transparent electronic voting. <br />
+                Utilizes blockchain technology to <br />
+                ensure the integrity and immutability of votes...
               </p>   
           </div>
           </div>
@@ -163,11 +163,11 @@ export default function Homep() {
               </div>
               <br />
               <div className="p-8">
-              <h2 className="text-2xl font-bold text-white-600 mb-4">Task Management App "Taskify"</h2>
+              <h2 className="text-2xl font-bold text-white-600 mb-4">Social Media Content Planner</h2>
               <p className="text-gray-400">
-              A cross-platform mobile app for team collaboration and task < br />
-              tracking. Features real-time updates, notifications, and an <br />
-              intuitive drag-and-drop interface. 
+              A social media content planning tool that helps users create, schedule,<br />
+              and track their content. Features real-time updates, notifications, and an <br />
+              intuitive drag-and-drop interface...
               </p> 
                
           </div>
@@ -185,11 +185,11 @@ export default function Homep() {
               </div>
               <br />
               <div className="p-8">
-              <h2 className="text-2xl font-bold text-white-600 mb-4">Data Analytics Dashboard</h2>
+              <h2 className="text-2xl font-bold text-white-600 mb-4">Screen Time Tracker</h2>
               <p className="text-gray-400">
-                A web-based dashboard for visualizing and analyzing complex <br />
-                datasets. Includes interactive charts, data filtering, and export <br />
-                functionalities.
+                A tool for monitoring and analyzing screen time usage. <br />
+                Provides insights into user behavior <br />
+                and helps manage digital well-being... 
               </p> 
           </div>
           </div>

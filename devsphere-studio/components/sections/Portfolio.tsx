@@ -29,16 +29,28 @@ export default function Portfolio() {
         </div>
         <br />
         <div className="p-8">
-        <h2 className="text-2xl font-bold text-white-600 mb-4">Web Development</h2>
+        <h2 className="text-2xl font-bold text-white-600 mb-4">Blockchain-Based Secure E-Voting DApp</h2>
         <p className="text-gray-400">
-           Full-Stack Development web development services, from single-page applications to large-scale
-           enterprise platforms. i focus on creating seamless user experiences with robust,
-           scalable backends. Technologies include React, Next.js, Node.js, and more
+          A decentralized application for secure and transparent electronic voting. <br />
+          Utilizes blockchain technology to <br />
+          ensure the integrity and immutability of votes.<br />
+          no tampering, no fraud, and complete transparency.
         </p> 
+        <div className="flex flex-wrap gap-3 container mx-auto mt-4">
+          <h1 className="text-lg font-semibold text-white bg-gray-600  px-2 py-2 rounded">React</h1>
+         
+          <h1 className="text-lg font-semibold text-white bg-gray-600  px-2 py-2 rounded">Node.js</h1>
+        
+          <h1 className="text-lg font-semibold text-white bg-gray-600  px-2 py-2 rounded">Solidity</h1>
+       
+          <h1 className="text-lg font-semibold text-white bg-gray-600  px-2 py-2 rounded mb-4">Hardhat</h1>
+
+        </div>
          <div className="space-x-4 container mx-auto text-center">
           <br/>
                 <button className="bg-gray-900 hover:bg-blue-700 text-white py-2 px-4 rounded">Live Demo</button>
-                <button className="bg-gray-900 hover:bg-blue-700 text-white py-2 px-4 rounded">View Code</button>
+                <button className="bg-gray-900 hover:bg-blue-700 text-white py-2 px-4 rounded mb-2">View Code</button>
+                
             </div>
     </div>
     </div>
@@ -56,12 +68,22 @@ export default function Portfolio() {
         </div>
         <br />
         <div className="p-8">
-        <h2 className="text-2xl font-bold text-white-600 mb-4">Mobile Apps</h2>
+        <h2 className="text-2xl font-bold text-white-600 mb-4">Social Media Content Planner</h2>
         <p className="text-gray-400">
-          Full-Stack Development web development services, from single-page applications to large-scale
-           enterprise platforms. i focus on creating seamless user experiences with robust,
-           scalable backends. Technologies include React, Next.js, Node.js, and more
+          A social media content planning tool that helps users create, schedule,<br />
+          and track their content. Features real-time updates, notifications, and an <br />
+          intuitive drag-and-drop interface. App provides insights into content strategy and engagement.
         </p> 
+        <div className="flex flex-wrap gap-3 container mx-auto mt-4">
+          <h1 className="text-lg font-semibold text-white bg-gray-600  px-2 py-2 rounded">React</h1>
+         
+          <h1 className="text-lg font-semibold text-white bg-gray-600  px-2 py-2 rounded">Vite</h1>
+        
+          <h1 className="text-lg font-semibold text-white bg-gray-600  px-2 py-2 rounded">Tailwind</h1>
+       
+          <h1 className="text-lg font-semibold text-white bg-gray-600  px-2 py-2 rounded mb-4">Flask SQLite</h1>
+
+        </div>
          <div className="space-x-4 container mx-auto text-center">
           <br/>
                 <button className="bg-gray-900 hover:bg-blue-700 text-white py-2 px-4 rounded">Live Demo</button>
@@ -82,12 +104,22 @@ export default function Portfolio() {
         </div>
         <br />
         <div className="p-8">
-        <h2 className="text-2xl font-bold text-white-600 mb-4">Mobile Apps</h2>
+        <h2 className="text-2xl font-bold text-white-600 mb-4">Screen Time Tracker</h2>
         <p className="text-gray-400">
-           Full-Stack Development web development services, from single-page applications to large-scale
-           enterprise platforms. i focus on creating seamless user experiences with robust,
-           scalable backends. Technologies include React, Next.js, Node.js, and more
+           A tool for monitoring and analyzing screen time usage. <br />
+           Provides insights into user behavior <br />
+           and helps manage digital well-being.<br />
+           Tracks and reports on screen time, helping users understand their digital habits.
+           Prevents overuse and promotes healthier digital habits.
         </p> 
+         <div className="flex flex-wrap gap-3 container mx-auto mt-4">
+          <h1 className="text-lg font-semibold text-white bg-gray-600  px-2 py-2 rounded">Ruby on Rails</h1>
+         
+          <h1 className="text-lg font-semibold text-white bg-gray-600  px-2 py-2 rounded">PostgreSQL</h1>
+        
+          <h1 className="text-lg font-semibold text-white bg-gray-600  px-2 py-2 rounded mb-4">HTML</h1>
+          
+        </div>
          <div className="space-x-4 container mx-auto text-center">
           <br/>
                 <button className="bg-gray-900 hover:bg-blue-700 text-white py-2 px-4 rounded">Live Demo</button>
@@ -108,12 +140,20 @@ export default function Portfolio() {
         </div>
         <br />
         <div className="p-8">
-        <h2 className="text-2xl font-bold text-white-600 mb-4">Mobile Apps</h2>
+        <h2 className="text-2xl font-bold text-white-600 mb-4">Job Board Application</h2>
         <p className="text-gray-400">
-           Leveraging frameworks like React Native to build applications that run smoothly on both
-           IOS and Android from single codebase. I handle everything from UI/UX design to
-           native API integrations and app store deployment.
+            A web-based job board application that connects job seekers with employers.
+            Features job listings, application tracking,
+            and user profiles.
+            Created with a focus on user experience and accessibility, ensuring a seamless job search process.
         </p> 
+        <div className="flex flex-wrap gap-3 container mx-auto mt-4">
+          <h1 className="text-lg font-semibold text-white bg-gray-600  px-2 py-2 rounded">Ruby on Rails</h1>
+         
+          <h1 className="text-lg font-semibold text-white bg-gray-600  px-2 py-2 rounded">PostgreSQL</h1>
+        
+          <h1 className="text-lg font-semibold text-white bg-gray-600  px-2 py-2 rounded mb-4">HTML</h1>
+        </div>
          <div className="space-x-4 container mx-auto text-center">
           <br/>
                 <button className="bg-gray-900 hover:bg-blue-700 text-white py-2 px-4 rounded">Live Demo</button>
@@ -135,12 +175,22 @@ export default function Portfolio() {
         </div>
         <br />
         <div className="p-8">
-        <h2 className="text-2xl font-bold text-white-600 mb-4">Game Development</h2>
+        <h2 className="text-2xl font-bold text-white-600 mb-4">Nike Shoes Website</h2>
         <p className="text-gray-400">
-           Specializing in indie and commercial game development using engines like Unity and
-           Godot. My Services cover game design, mechanics programming, assist integration, and
-           performance optimization for various platforms.
+           A modern e-commerce website for a fictional shoe brand, 
+           featuring a responsive design, product listings, and a shopping cart.
+           Built with a focus on user experience and performance.
+           The site is optimized for a smooth user experience.
         </p> 
+        <div className="flex flex-wrap gap-3 container mx-auto mt-4">
+          <h1 className="text-lg font-semibold text-white bg-gray-600  px-2 py-2 rounded">HTML</h1>
+         
+          <h1 className="text-lg font-semibold text-white bg-gray-600  px-2 py-2 rounded">CSS</h1>
+        
+          <h1 className="text-lg font-semibold text-white bg-gray-600  px-2 py-2 rounded">JavaScript</h1>
+
+          <h1 className="text-lg font-semibold text-white bg-gray-600  px-2 py-2 rounded mb-4">Bootstrap</h1>
+        </div>
          <div className="space-x-4 container mx-auto text-center">
           <br/>
                 <button className="bg-gray-900 hover:bg-blue-700 text-white py-2 px-4 rounded">Live Demo</button>
@@ -162,12 +212,23 @@ export default function Portfolio() {
         </div>
         <br />
         <div className="p-8">
-        <h2 className="text-2xl font-bold text-white-600 mb-4">Custom Systems</h2>
+        <h2 className="text-2xl font-bold text-white-600 mb-4">Hitting Game</h2>
         <p className="text-gray-400">
-           Creating custom software solutions such as CRM systems, backend APIs, data
-           processing pipelines, and automation tools. I work closely with you to understand your
-           requirements and deliver a system that optimizes your workflow.
+           A simple yet engaging game where players hit targets to score points.
+            The game features intuitive controls, dynamic levels, and
+             keep players challenged and entertained.
+            The game is designed to be fun and engaging for players of all ages.
+
         </p> 
+         <div className="flex flex-wrap gap-3 container mx-auto mt-4">
+          <h1 className="text-lg font-semibold text-white bg-gray-600  px-2 py-2 rounded">HTML</h1>
+         
+          <h1 className="text-lg font-semibold text-white bg-gray-600  px-2 py-2 rounded">CSS</h1>
+        
+          <h1 className="text-lg font-semibold text-white bg-gray-600  px-2 py-2 rounded">JavaScript</h1>
+
+          <h1 className="text-lg font-semibold text-white bg-gray-600  px-2 py-2 rounded mb-4">Bootstrap</h1>
+        </div>
          <div className="space-x-4 container mx-auto text-center">
           <br/>
                 <button className="bg-gray-900 hover:bg-blue-700 text-white py-2 px-4 rounded">Live Demo</button>
