@@ -71,7 +71,7 @@ export default function Contact() {
                 name="email"
                 required
                 placeholder="benedicte.b14@hotmail.com"
-                className="mt-2 w-full rounded-md border border-gray-300 px-4 py-2 text-white focus:border-indigo-500 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                className="mt-2 w-full rounded-md border border-gray-300 px-4 py-2 text-white focus:border-indigo-500 placeholder:text-blue-200 focus:outline-none focus:ring-2 focus:ring-indigo-500"
               />
             </div>
 
@@ -90,16 +90,16 @@ export default function Contact() {
                 rows={4}
                 required
                 placeholder="Describe your project, goals, and any specific requirements..." 
-                className="mt-2 w-full rounded-md border border-gray-300 px-4 py-2 text-white focus:border-indigo-500 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                className="mt-2 w-full rounded-md border border-gray-300 px-4 py-2 text-white focus:border-indigo-500 placeholder:text-blue-200 focus:outline-none focus:ring-2 focus:ring-indigo-500"
               />
             </div>
 
             {/* Button */}
             <button
               type="submit"
-              className="w-full rounded-md bg-blue-400 py-3 text-white font-semibold transition hover:bg-indigo-700"
+              className="w-full rounded-md bg-blue-400 py-3 text-black font-semibold transition hover:bg-indigo-700"
             > 
-            <span className="mr-4">➤</span>
+            <span className="mr-4 ">➤</span>
               Send Message
             </button>
           </form>

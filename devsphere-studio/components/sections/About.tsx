@@ -214,7 +214,7 @@ export default function About() {
               <div className="bg-gray-700 rounded-xl shadow-lg p-2 h-50 w-60hover:shadow-2xl transition-shadow duration-300">
                  <div className="w-30 h-20 relative mx-auto mb-2 mt-7">
                   <Image
-                    src="/postgresl.jpg"
+                    src="/postgresqll.png"
                     alt="custom project"
                     fill
                     className="object-cover"

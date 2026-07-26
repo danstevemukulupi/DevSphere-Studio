@@ -11,7 +11,7 @@ export default function Portfolio() {
         <br />
         <br />
         <h1 className="text-5xl font-bold">My Work</h1>
-        <p className="mt-4 text-xl text-gray-400">
+        <p className="mt-4 text-xl text-blue-200">
           Here is a selection of projects that showcase my skills and dedication to quality. Each<br />
           project represents a unique challenge and a successful solution.
         </p>
@@ -30,7 +30,7 @@ export default function Portfolio() {
         <br />
         <div className="p-8">
         <h2 className="text-2xl font-bold text-white-600 mb-4">Blockchain-Based Secure E-Voting DApp</h2>
-        <p className="text-gray-400">
+        <p className="text-blue-200">
           A decentralized application for secure and transparent electronic voting. <br />
           Utilizes blockchain technology to <br />
           ensure the integrity and immutability of votes.<br />
@@ -69,7 +69,7 @@ export default function Portfolio() {
         <br />
         <div className="p-8">
         <h2 className="text-2xl font-bold text-white-600 mb-4">Social Media Content Planner</h2>
-        <p className="text-gray-400">
+        <p className="text-blue-200">
           A social media content planning tool that helps users create, schedule,<br />
           and track their content. Features real-time updates, notifications, and an <br />
           intuitive drag-and-drop interface. App provides insights into content strategy and engagement.
@@ -105,7 +105,7 @@ export default function Portfolio() {
         <br />
         <div className="p-8">
         <h2 className="text-2xl font-bold text-white-600 mb-4">Screen Time Tracker</h2>
-        <p className="text-gray-400">
+        <p className="text-blue-200">
            A tool for monitoring and analyzing screen time usage. <br />
            Provides insights into user behavior <br />
            and helps manage digital well-being.<br />
@@ -141,7 +141,7 @@ export default function Portfolio() {
         <br />
         <div className="p-8">
         <h2 className="text-2xl font-bold text-white-600 mb-4">Job Board Application</h2>
-        <p className="text-gray-400">
+        <p className="text-blue-200">
             A web-based job board application that connects job seekers with employers.
             Features job listings, application tracking,
             and user profiles.
@@ -176,7 +176,7 @@ export default function Portfolio() {
         <br />
         <div className="p-8">
         <h2 className="text-2xl font-bold text-white-600 mb-4">Nike Shoes Website</h2>
-        <p className="text-gray-400">
+        <p className="text-blue-200">
            A modern e-commerce website for a fictional shoe brand, 
            featuring a responsive design, product listings, and a shopping cart.
            Built with a focus on user experience and performance.
@@ -213,7 +213,7 @@ export default function Portfolio() {
         <br />
         <div className="p-8">
         <h2 className="text-2xl font-bold text-white-600 mb-4">Hitting Game</h2>
-        <p className="text-gray-400">
+        <p className="text-blue-200">
            A simple yet engaging game where players hit targets to score points.
             The game features intuitive controls, dynamic levels, and
              keep players challenged and entertained.

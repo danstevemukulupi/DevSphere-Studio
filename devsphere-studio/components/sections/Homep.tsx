@@ -13,20 +13,20 @@ export default function Homep() {
     <Navbar />
     <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-gray-800">
       <h1 className="text-6xl font-bold">Engineering Your Vision,<br/>One Line of Code at a Time.</h1>
-      <p className="mt-4 text-xl text-gray-400">
+      <p className="mt-4 text-xl text-blue-200">
       Welcome to DevSphere Studio, where innovative ideas are <br />
       transformed into powerfull software solutions. From sleek websites<br />
       to complex enterorise systems, let's build the future together.
       </p>
-        <div className="space-x-4 container mx-auto text-center">
+        <div className="space-x-4 container mx-auto text-center ">
           <br/>
                 <button className="bg-blue-400 hover:bg-blue-700 text-black font-bold py-2 px-4 rounded">Get a Free Quotes</button>
-                <button className="bg-red-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">View My Work</button>
+                <button className="bg-red-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ">View My Work</button>
             </div>
     </div>
     <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-gray-900">
       <h1 className="text-4xl font-bold text-white mt-2">What I Build</h1>
-      <p className="mt-4 text-xl text-gray-400">Specializing in a wide range of development services to meet your business needs.</p>
+      <p className="mt-4 text-xl text-blue-200">Specializing in a wide range of development services to meet your business needs.</p>
       
       <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mt-10 max-w-8xl  mx-auto"> 
             <div className="bg-gray-700 rounded-xl shadow-lg  hover:shadow-2xl transition-shadow duration-300">
@@ -42,7 +42,7 @@ export default function Homep() {
               <br />
               <div className="p-6">
               <h2 className="text-2xl font-bold text-white-600 mb-4 text-center">Web Development</h2>
-              <p className="text-gray-400 text-center">
+              <p className="text-blue-200 text-center">
                 Crafting responsive, high-performance <br />
                 websites and web applications using modern < br/>
                 technologies.
@@ -64,7 +64,7 @@ export default function Homep() {
               <br />
               <div className="p-6">
               <h2 className="text-2xl font-bold text-white-600 mb-4 text-center">Mobile Apps</h2>
-              <p className="text-gray-400 text-center">
+              <p className="text-blue-200 text-center">
                 Building beautiful and intuitive cross-platform <br />
                 mobile applications for IOS and Android.
               </p> 
@@ -85,7 +85,7 @@ export default function Homep() {
               <br />
               <div className="p-6">
               <h2 className="text-2xl font-bold text-white-600 mb-4 text-center">Game Development</h2>
-              <p className="text-gray-400 text-center">
+              <p className="text-blue-200 text-center">
                 Developing engaging 2D and 3D games with <br />
                 immersive and gameplay mechanics.
               </p> 
@@ -107,7 +107,7 @@ export default function Homep() {
               <br />
               <div className="p-6">
               <h2 className="text-2xl font-bold text-white-600 mb-4 text-center">Custom Systems</h2>
-              <p className="text-gray-400 text-center">
+              <p className="text-blue-200 text-center">
                  Designing and implementing bespoke <br />
                  software systems tailored to your unique <br />
                   business needs.
@@ -127,8 +127,8 @@ export default function Homep() {
           </Link>
       </div>
      <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-gray-800">
-      <h1 className="text-4xl font-bold text-white">Features Projects</h1>
-      <p className="mt-4 text-xl text-gray-400">A glimpse into the quality and creativity of my work.</p>
+      <h1 className="text-4xl font-bold text-white mt-10">Features Projects</h1>
+      <p className="mt-4 text-xl text-blue-200">A glimpse into the quality and creativity of my work.</p>
       
        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10 max-w-8xl mx-auto"> 
             <div className="bg-gray-700 rounded-xl shadow-lg  hover:shadow-2xl transition-shadow duration-300">
@@ -144,7 +144,7 @@ export default function Homep() {
               <br />
               <div className="p-8">
               <h2 className="text-2xl font-bold text-white-600 mb-4">Blockchain-Based Secure E-Voting DApp</h2>
-              <p className="text-gray-400">
+              <p className="text-blue-200">
                 A decentralized application for secure and transparent electronic voting. <br />
                 Utilizes blockchain technology to <br />
                 ensure the integrity and immutability of votes...
@@ -164,7 +164,7 @@ export default function Homep() {
               <br />
               <div className="p-8">
               <h2 className="text-2xl font-bold text-white-600 mb-4">Social Media Content Planner</h2>
-              <p className="text-gray-400">
+              <p className="text-blue-200">
               A social media content planning tool that helps users create, schedule,<br />
               and track their content. Features real-time updates, notifications, and an <br />
               intuitive drag-and-drop interface...
@@ -186,7 +186,7 @@ export default function Homep() {
               <br />
               <div className="p-8">
               <h2 className="text-2xl font-bold text-white-600 mb-4">Screen Time Tracker</h2>
-              <p className="text-gray-400">
+              <p className="text-blue-200">
                 A tool for monitoring and analyzing screen time usage. <br />
                 Provides insights into user behavior <br />
                 and helps manage digital well-being... 
@@ -227,7 +227,7 @@ export default function Homep() {
        <div>         
       <h1 className="text-5xl font-bold text-white">Meet The Developer</h1>
       
-      <p className="mt-4 text-2xl text-gray-400 max-w-2xl">
+      <p className="mt-4 text-2xl text-blue-200 max-w-2xl">
       I'am a passionate software developer with knack for turning complex problems into elegant, user-friendly <br />
       solutions. with years of experience across the techn stack, i'm dedicated to delivering high-quality code and <br />
       exceptional results.

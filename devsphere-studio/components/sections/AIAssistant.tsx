@@ -13,7 +13,7 @@ export default function AIAssistant() {
             AI Project Scope Assistant
           </h1>
 
-          <p className="mt-6 max-w-2xl text-center text-lg text-gray-300">
+          <p className="mt-6 max-w-2xl text-center text-lg text-blue-200">
            Have a brilliant app idea? Describe it below, and our AI assistant will provide instant
            suggestions for key features, a potential tech stack, and a high-level effort estimate to
            help you get started
@@ -44,15 +44,16 @@ export default function AIAssistant() {
                 rows={4}
                 required
                 placeholder="e.g., A mobile app that helps users find local hiking trails with user-submitted photos and difficulty ratings..." 
-                className="mt-2 w-full rounded-md border border-gray-300 px-4 py-2 text-gray-900 focus:border-indigo-500 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                className="mt-2 w-full rounded-md border border-gray-300 px-4 py-2 text-gray-900 focus:border-indigo-500 placeholder:text-blue-200 focus:outline-none focus:ring-2 focus:ring-indigo-500"
               />
             </div>
 
             {/* Button */}
             <button
               type="submit"
-              className="w-full rounded-md bg-indigo-600 py-3 text-white font-semibold transition hover:bg-indigo-700"
+              className="w-full rounded-md bg-blue-400 py-3 text-black font-semibold transition hover:bg-indigo-700"
             >
+              <span className="mr-4">✧</span>
               Generate Suggestions
             </button>
           </form>
