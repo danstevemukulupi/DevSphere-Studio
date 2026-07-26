@@ -1,6 +1,7 @@
 import Navbar from "../layout/Navbar";
 import Footer from "../layout/Footer";
 
+
 export default function Contact() {
   return (
     <>
@@ -14,7 +15,7 @@ export default function Contact() {
             Get In Touch
           </h1>
 
-          <p className="mt-6 max-w-2xl text-center text-lg text-gray-300">
+          <p className="mt-6 max-w-2xl text-center text-lg text-blue-200">
             Have a project in mind, a question, or just want to say hello?
             I'd love to hear from you. Fill out the form below and I'll get
             back to you as soon as possible.
@@ -31,7 +32,7 @@ export default function Contact() {
                 Project Inquiry
               </h2>
 
-              <p className="mt-2 text-gray-400">
+              <p className="mt-2 text-blue-200">
                 Please provide as much detail as possible about your project.
               </p>
             </div>
@@ -51,7 +52,7 @@ export default function Contact() {
                 name="fullname"
                 required
                 placeholder= "Benedicte B"
-                className="mt-2 w-full rounded-md border border-gray-300 px-4 py-2 text-gray-900 focus:border-indigo-500 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                className="mt-2 w-full rounded-md border border-gray-300 px-4 py-2 text-white focus:border-indigo-500 placeholder:text-blue-200 focus:outline-none focus:ring-2 focus:ring-indigo-500"
               />
             </div>
 
@@ -70,7 +71,7 @@ export default function Contact() {
                 name="email"
                 required
                 placeholder="benedicte.b14@hotmail.com"
-                className="mt-2 w-full rounded-md border border-gray-300 px-4 py-2 text-gray-900 focus:border-indigo-500 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                className="mt-2 w-full rounded-md border border-gray-300 px-4 py-2 text-white focus:border-indigo-500 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500"
               />
             </div>
 
@@ -89,15 +90,16 @@ export default function Contact() {
                 rows={4}
                 required
                 placeholder="Describe your project, goals, and any specific requirements..." 
-                className="mt-2 w-full rounded-md border border-gray-300 px-4 py-2 text-gray-900 focus:border-indigo-500 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                className="mt-2 w-full rounded-md border border-gray-300 px-4 py-2 text-white focus:border-indigo-500 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500"
               />
             </div>
 
             {/* Button */}
             <button
               type="submit"
-              className="w-full rounded-md bg-indigo-600 py-3 text-white font-semibold transition hover:bg-indigo-700"
-            >
+              className="w-full rounded-md bg-blue-400 py-3 text-white font-semibold transition hover:bg-indigo-700"
+            > 
+            <span className="mr-4">➤</span>
               Send Message
             </button>
           </form>
