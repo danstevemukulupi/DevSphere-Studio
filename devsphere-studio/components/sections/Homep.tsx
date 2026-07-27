@@ -11,24 +11,28 @@ export default function Homep() {
   return (
    <> 
     <Navbar />
-    <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-gray-800">
-      <h1 className="text-6xl font-bold">Engineering Your Vision,<br/>One Line of Code at a Time.</h1>
-      <p className="mt-4 text-xl text-blue-200">
+    <div className="flex flex-col items-center justify-center   py-70 bg-gray-800">
+      <h1 className="text-7xl font-bold ">Engineering Your Vision,<br/>One Line of Code at a Time.</h1>
+      <p className="mt-4 text-2xl text-blue-200 ">
       Welcome to DevSphere Studio, where innovative ideas are <br />
       transformed into powerfull software solutions. From sleek websites<br />
       to complex enterorise systems, let's build the future together.
       </p>
         <div className="space-x-4 container mx-auto text-center ">
           <br/>
+                <Link href="/contact">
                 <button className="bg-blue-400 hover:bg-blue-700 text-black font-bold py-2 px-4 rounded">Get a Free Quotes</button>
+                </Link>
+                <Link href="/portfolio">
                 <button className="bg-red-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ">View My Work</button>
+                </Link>
             </div>
     </div>
-    <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-gray-900">
+    <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-gray-900"> 
       <h1 className="text-4xl font-bold text-white mt-2">What I Build</h1>
       <p className="mt-4 text-xl text-blue-200">Specializing in a wide range of development services to meet your business needs.</p>
       
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mt-10 max-w-8xl  mx-auto"> 
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mt-10 max-w-8xl  mx-auto">  
             <div className="bg-gray-700 rounded-xl shadow-lg  hover:shadow-2xl transition-shadow duration-300">
               <div className="flex items-center justify-center h-40">
                 <Image
