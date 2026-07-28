@@ -1,9 +1,43 @@
+"use client";
+
 import Navbar from "../layout/Navbar";
 import Footer from "../layout/Footer";
+import emailjs from "@emailjs/browser";
+import { useRef} from "react";
+
+
 
 
 export default function Contact() {
+
+  const form = useRef<HTMLFormElement>(null);
+
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
+  e.preventDefault();
+
+  if(!form.current) return;
+
+  emailjs
+    .sendForm(
+      "service_80zs5r3",
+      "template_u0guq7l",
+      form.current,
+      {
+        publicKey: "aafUyIJB3tEaKqTkG",
+      }
+    )
+    .then(
+      () => {
+        alert("Message sent successfully!");
+      },
+      (error) => {
+        alert("Failed to send message");
+        console.log(error);
+      }
+    );
+};
   return (
+    
     <>
       <Navbar />
 
@@ -23,8 +57,8 @@ export default function Contact() {
 
           {/* Contact Form */}
           <form
-            action="#"
-            method="POST"
+          ref={form}
+          onSubmit={sendEmail}
             className="mt-12 w-full max-w-lg  bg-gray-700  rounded-xl shadow-xl p-8 space-y-6"
           >
             <div>
@@ -40,7 +74,7 @@ export default function Contact() {
             {/* Full Name */}
             <div>
               <label
-                htmlFor="fullname"
+                htmlFor="name"
                 className="block text-sm font-medium text-white"
               >
                 Full Name
@@ -48,8 +82,8 @@ export default function Contact() {
 
               <input
                 type="text"
-                id="fullname"
-                name="fullname"
+                id="name"
+                name="name"
                 required
                 placeholder= "Benedicte B"
                 className="mt-2 w-full rounded-md border border-gray-300 px-4 py-2 text-white focus:border-indigo-500 placeholder:text-blue-200 focus:outline-none focus:ring-2 focus:ring-indigo-500"
