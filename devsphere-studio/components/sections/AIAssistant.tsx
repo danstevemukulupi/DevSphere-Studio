@@ -9,6 +9,10 @@ export default function AIAssistant() {
         <div className="max-w-6xl mx-auto flex flex-col items-center">
 
           {/* Heading */}
+          <h1 className="mb-4 text-blue-200">
+            <span className="mr-2">🔴</span>
+            Service Unavailable for the moment
+          </h1>
           <h1 className="text-5xl md:text-6xl font-bold text-center">
             AI Project Scope Assistant
           </h1>
