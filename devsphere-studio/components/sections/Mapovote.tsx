@@ -16,7 +16,7 @@ export default function Mapovote() {
           controls
           className="w-4/5 max-5xl rounded-xl shadow-xl"
         >
-          <source src="/Mapovote-Finall.mp4" type="video/mp4" />
+          <source src="/Mapovote.mp4" type="video/mp4" />
         </video>
     </div>
    <hr className="border-gray-700 "></hr>
