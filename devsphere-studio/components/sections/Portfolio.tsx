@@ -20,7 +20,7 @@ export default function Portfolio() {
       <div className="bg-gray-700 rounded-xl shadow-lg  hover:shadow-2xl transition-shadow duration-300">
         <div className="relative w-full h-48 md:h-56">
           <Image
-            src="/e-commerce.webp"
+            src="/mapovote.png"
             alt="e-commerce project"
             fill
             className="object-cover"
@@ -59,7 +59,7 @@ export default function Portfolio() {
       <div className="bg-gray-700 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
          <div className="relative w-full h-48 md:h-56">
           <Image
-            src="/mobileappone.webp"
+            src="/social-Media-Content.png"
             alt="mobile project"
             fill
             className="object-cover"
@@ -95,7 +95,7 @@ export default function Portfolio() {
     <div className="bg-gray-700 rounded-xl shadow-lg  hover:shadow-2xl transition-shadow duration-300">
        <div className="relative w-full h-48 md:h-56">
           <Image
-            src="/mobile.webp"
+            src="/Atu-Gym-App.png"
             alt="mobile project"
             fill
             className="object-cover"
@@ -104,7 +104,7 @@ export default function Portfolio() {
         </div>
         <br />
         <div className="p-8">
-        <h2 className="text-2xl font-bold text-white-600 mb-4">Screen Time Tracker</h2>
+        <h2 className="text-2xl font-bold text-white-600 mb-4">Atu Gym Tracker</h2>
         <p className="text-blue-200">
            A tool for monitoring and analyzing screen time usage. <br />
            Provides insights into user behavior <br />
@@ -131,7 +131,7 @@ export default function Portfolio() {
     <div className="bg-gray-700 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
        <div className="relative w-full h-48 md:h-56">
           <Image
-            src="/mobiletwo.webp"
+            src="/Screen-Time-Tracker.png"
             alt="e-commerc project"
             fill
             className="object-cover"
@@ -140,12 +140,13 @@ export default function Portfolio() {
         </div>
         <br />
         <div className="p-8">
-        <h2 className="text-2xl font-bold text-white-600 mb-4">Job Board Application</h2>
+        <h2 className="text-2xl font-bold text-white-600 mb-4">Screen Time Tracker</h2>
         <p className="text-blue-200">
-            A web-based job board application that connects job seekers with employers.
-            Features job listings, application tracking,
-            and user profiles.
-            Created with a focus on user experience and accessibility, ensuring a seamless job search process.
+            A tool for monitoring and analyzing screen time usage. <br />
+           Provides insights into user behavior <br />
+           and helps manage digital well-being.<br />
+           Tracks and reports on screen time, helping users understand their digital habits.
+           Prevents overuse and promotes healthier digital habits.
         </p> 
         <div className="flex flex-wrap gap-3 container mx-auto mt-4">
           <h1 className="text-lg font-semibold text-white bg-gray-600  px-2 py-2 rounded">Ruby on Rails</h1>
@@ -166,7 +167,7 @@ export default function Portfolio() {
       <div className="bg-gray-700 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
          <div className="relative w-full h-48 md:h-56">
           <Image
-            src="/game.webp"
+            src="/Nike-Shoes.png"
             alt="game project"
             fill
             className="object-cover"
@@ -203,7 +204,7 @@ export default function Portfolio() {
       <div className="bg-gray-700 rounded-xl shadow-lg  hover:shadow-2xl transition-shadow duration-300">
          <div className="relative w-full h-48 md:h-56">
           <Image
-            src="/custom.png"
+            src="/Hitting-Game.png"
             alt="custom project"
             fill
             className="object-cover"
