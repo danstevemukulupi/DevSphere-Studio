@@ -16,7 +16,7 @@ export default function Atugymtracker() {
           controls
           className="w-4/5 max-5xl rounded-xl shadow-xl"
         >
-          <source src="/Atu-Fitness-App.mp4" type="video/mp4" />
+          <source src="/Atu-Fitness-Appf.mp4" type="video/mp4" />
         </video>
     </div>
  <hr className="border-gray-700 "></hr>
