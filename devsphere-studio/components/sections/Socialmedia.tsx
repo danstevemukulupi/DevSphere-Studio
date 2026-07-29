@@ -16,7 +16,7 @@ export default function Socialmedia() {
           controls
           className="w-4/5 max-5xl rounded-xl shadow-xl"
         >
-          <source src="/Social-Media-Final.mp4" type="video/mp4" />
+          <source src="/Social-Media-Sound.mp4" type="video/mp4" />
         </video>
     </div>
     <hr className="border-gray-700 "></hr>
