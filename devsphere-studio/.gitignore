@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+devsphere-studio/public/Mapovote-Finall.mp4
+devsphere-studio/public/Atu-Fitness-App-Final.mp4
+devsphere-studio/public/Atu-Fitness-App.mp4
