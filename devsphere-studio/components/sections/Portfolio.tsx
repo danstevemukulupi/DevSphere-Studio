@@ -1,6 +1,7 @@
 import Navbar from "../layout/Navbar";
 import Footer from "../layout/Footer";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Portfolio() {
   return (
@@ -48,7 +49,9 @@ export default function Portfolio() {
         </div>
          <div className="space-x-4 container mx-auto text-center">
           <br/>
+                <Link href="/mapovote">
                 <button className="bg-gray-900 hover:bg-blue-700 text-white py-2 px-4 rounded">Live Demo</button>
+                </Link>
                 <button className="bg-gray-900 hover:bg-blue-700 text-white py-2 px-4 rounded mb-2">View Code</button>
                 
             </div>
@@ -86,7 +89,9 @@ export default function Portfolio() {
         </div>
          <div className="space-x-4 container mx-auto text-center">
           <br/>
+                <Link href="/socialmedia"> 
                 <button className="bg-gray-900 hover:bg-blue-700 text-white py-2 px-4 rounded">Live Demo</button>
+                </Link>
                 <button className="bg-gray-900 hover:bg-blue-700 text-white py-2 px-4 rounded">View Code</button>
             </div>
     </div>
@@ -122,7 +127,9 @@ export default function Portfolio() {
         </div>
          <div className="space-x-4 container mx-auto text-center">
           <br/>
+                <Link href="/atugymtracker"> 
                 <button className="bg-gray-900 hover:bg-blue-700 text-white py-2 px-4 rounded">Live Demo</button>
+                </Link>
                 <button className="bg-gray-900 hover:bg-blue-700 text-white py-2 px-4 rounded">View Code</button>
             </div>
     </div>
@@ -156,8 +163,10 @@ export default function Portfolio() {
           <h1 className="text-lg font-semibold text-white bg-gray-600  px-2 py-2 rounded mb-4">HTML</h1>
         </div>
          <div className="space-x-4 container mx-auto text-center">
-          <br/>
+          <br/> 
+                <Link href="/screentimetracker"> 
                 <button className="bg-gray-900 hover:bg-blue-700 text-white py-2 px-4 rounded">Live Demo</button>
+                </Link>
                 <button className="bg-gray-900 hover:bg-blue-700 text-white py-2 px-4 rounded">View Code</button>
             </div>
     </div>
@@ -194,7 +203,9 @@ export default function Portfolio() {
         </div>
          <div className="space-x-4 container mx-auto text-center">
           <br/>
+                <Link href="/nikeshoes"> 
                 <button className="bg-gray-900 hover:bg-blue-700 text-white py-2 px-4 rounded">Live Demo</button>
+                </Link>
                 <button className="bg-gray-900 hover:bg-blue-700 text-white py-2 px-4 rounded">View Code</button>
             </div>
     </div>
@@ -232,7 +243,9 @@ export default function Portfolio() {
         </div>
          <div className="space-x-4 container mx-auto text-center">
           <br/>
+                <Link href="/hittinggame">
                 <button className="bg-gray-900 hover:bg-blue-700 text-white py-2 px-4 rounded">Live Demo</button>
+                </Link>
                 <button className="bg-gray-900 hover:bg-blue-700 text-white py-2 px-4 rounded">View Code</button>
             </div>
     </div>

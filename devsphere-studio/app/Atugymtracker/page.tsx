@@ -1,9 +1,9 @@
-import AtuGymTracker from "@/components/sections/Atugymtracker";
+import Atugymtracker from "@/components/sections/Atugymtracker";
 
-export default function AtuGymTrackerPage(){
+export default function AtugymtrackerPage(){
     return (
         <>
-        <AtuGymTracker />
+        <Atugymtracker />
         </>
     );
 }
