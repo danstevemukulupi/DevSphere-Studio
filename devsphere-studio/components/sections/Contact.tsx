@@ -59,7 +59,7 @@ export default function Contact() {
           <form
           ref={form}
           onSubmit={sendEmail}
-            className="mt-12 w-full max-w-lg  bg-gray-700  rounded-xl shadow-xl p-8 space-y-6"
+            className="mt-12 w-full  max-w-lg  bg-gray-700  rounded-xl shadow-xl p-8 space-y-6"
           >
             <div>
               <h2 className="text-2xl font-bold text-white">
