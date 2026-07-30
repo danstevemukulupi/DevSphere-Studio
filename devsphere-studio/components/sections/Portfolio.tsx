@@ -77,7 +77,7 @@ export default function Portfolio() {
       duration-300">
          <div className="relative w-full h-48 md:h-56">
           <Image
-            src="/social-Media-Content.png"
+            src="/Social-Media-Content.png"
             alt="mobile project"
             fill
             className="object-cover"
