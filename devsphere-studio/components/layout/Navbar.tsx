@@ -8,8 +8,9 @@ export default function Navbar() {
             <div className="text-lg font-bold container mx-auto text-left ">
                 <span className="mr-8 ">{"</>"}</span>DevSphere Studio</div>
             <div className="space-x-4 container mx-auto text-center">
-                <Link href="/" className="hover:text-gray-400"></Link>
-                <Link href="/homep" className="hover:text-blue-400 text-blue-200">Home</Link>
+                {/*<Link href="/" className="hover:text-gray-400"></Link>*/}
+                {/*<Link href="/homep" className="hover:text-blue-400 text-blue-200">Home</Link>*/}
+                <Link href="/" className="hover:text-blue-400 text-blue-200">Home</Link>
                 <Link href="/services" className="hover:text-blue-400 text-blue-200">Services</Link>
                 <Link href="/portfolio" className="hover:text-blue-400 text-blue-200">Portfolio</Link>
                 <Link href="/aiassistant" className="hover:text-blue-400 text-blue-200">AI Assistant</Link>

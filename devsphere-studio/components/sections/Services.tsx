@@ -1,12 +1,13 @@
 import Navbar from "../layout/Navbar";
 import Footer from "../layout/Footer";
+import Link from "next/link";
 
 
 
 export default function Services() {
   return (
    <>
-   <Navbar />
+   {/*<Navbar />*/}
     <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-gray-800">
       <br />
       <br />
@@ -83,14 +84,16 @@ export default function Services() {
     <p className="mt-4 text-xl text-blue-200">Let's discuss how I can help bring your ideas to life.</p>
     <div className="space-x-4 container mx-auto text-center">
           <br/>
-                <button className="bg-blue-400 hover:bg-blue-700 text-black font-bold py-2 px-4 rounded">Get in Touch</button>                  
+                <Link href="/contact"> 
+                <button className="bg-blue-400 hover:bg-blue-700 text-black font-bold py-2 px-4 rounded">Get in Touch</button>    
+                </Link>              
     </div>
     <br />
     <br />
     <br/>
     </div> 
   <hr className="border-gray-700 "></hr>
-    <Footer />
+    {/*<Footer />*/}
     </>
   );
 }

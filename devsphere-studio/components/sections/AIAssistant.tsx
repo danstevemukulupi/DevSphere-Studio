@@ -4,7 +4,7 @@ import Footer from "../layout/Footer";
 export default function AIAssistant() {
   return (
     <>
-      <Navbar />
+      {/*<Navbar />*/}
       <section className="min-h-screen bg-gray-800 text-white py-20 px-6">
         <div className="max-w-6xl mx-auto flex flex-col items-center">
 
@@ -65,7 +65,7 @@ export default function AIAssistant() {
       </section>
       
        <hr className="border-gray-700 "></hr>
-      <Footer />
+      {/*<Footer />*/}
     </>
   );
 }

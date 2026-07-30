@@ -1,4 +1,4 @@
- import Home from "@/components/sections/Homep";
+  {/* import Home from "@/components/sections/Homep";
 
 export default function HomeP() {
   return (
@@ -6,4 +6,4 @@ export default function HomeP() {
   <Home />
   </>
   );
-}
+}*/}

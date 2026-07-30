@@ -39,7 +39,7 @@ export default function Contact() {
   return (
     
     <>
-      <Navbar />
+      {/*<Navbar />*/}
 
       <section className="min-h-screen bg-gray-800 text-white py-20 px-6">
         <div className="max-w-6xl mx-auto flex flex-col items-center">
@@ -142,7 +142,7 @@ export default function Contact() {
 
       <hr className="border-gray-700" />
 
-      <Footer />
+      {/*<Footer />*/}
     </>
   );
 }

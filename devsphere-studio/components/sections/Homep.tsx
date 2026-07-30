@@ -1,6 +1,6 @@
 
-import Navbar from "../layout/Navbar";
-import Footer from "../layout/Footer";
+//import Navbar from "../layout/Navbar";
+//import Footer from "../layout/Footer";
 import React from "react"; 
 import Image from "next/image";
 import Link from "next/link";
@@ -10,7 +10,7 @@ import Link from "next/link";
 export default function Homep() {
   return (
    <> 
-    <Navbar />
+    {/*<Navbar />*/}
     <div className="flex flex-col items-center justify-center   py-70 bg-gray-800">
       <h1 className="text-7xl font-bold mb-6">Engineering Your Vision,<br/>One Line of Code at a Time.</h1>
       <p className="mt-4 text-2xl text-blue-200 mb-6">
@@ -282,7 +282,7 @@ export default function Homep() {
       </div>
       </div>
        <hr className="border-gray-700 "></hr>
-    <Footer />
+    {/*<Footer />*/}
     </>
    
   );

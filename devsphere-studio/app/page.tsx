@@ -12,16 +12,16 @@ import Homep from "@/components/sections/Homep";
 export default function Home() {
   return (
       <>
-    <Navbar />
+    {/*<Navbar />*/}
     <main>
       <Homep />
-      <Services />
-      <Portfolio />
-      <AIAssistant />
-      <About />
-      <Contact />
+      {/*<Services />*/}
+      {/*<Portfolio />*/}
+      {/*<AIAssistant />*/}
+      {/*<About />*/}
+      {/*<Contact />*/}
     </main>
-      <Footer />
+      {/*<Footer />*/}
   </>
   );
   

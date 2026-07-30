@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function About() {
   return (
     <>
-      <Navbar />
+      {/*<Navbar />*/}
       <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-gray-800">
         <br />
         <br />
@@ -231,7 +231,7 @@ export default function About() {
             <br/>
       </div>
        <hr className="border-gray-700 "></hr>
-      <Footer />
+      {/*<Footer />*/}
     </>
   );
 }
