@@ -48,7 +48,7 @@ export default function AIAssistant() {
                 rows={4}
                 required
                 placeholder="e.g., A mobile app that helps users find local hiking trails with user-submitted photos and difficulty ratings..." 
-                className="mt-2 w-full rounded-md border border-gray-300 px-4 py-2 text-gray-900 focus:border-indigo-500 placeholder:text-blue-200 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                className="mt-2 w-full rounded-md border border-gray-300 px-4 py-2 text-white focus:border-indigo-500 placeholder:text-blue-200 focus:outline-none focus:ring-2 focus:ring-indigo-500"
               />
             </div>
 

@@ -29,6 +29,7 @@ export default function Contact() {
     .then(
       () => {
         alert("Message sent successfully!");
+        form.current?.reset();
       },
       (error) => {
         alert("Failed to send message");
