@@ -60,7 +60,7 @@ export default function Contact() {
           <form
           ref={form}
           onSubmit={sendEmail}
-            className="mt-12 w-full  max-w-lg  bg-gray-700  rounded-xl shadow-xl p-8 space-y-6"
+            className="mt-12 w-full   max-w-3xl bg-gray-700  rounded-xl shadow-xl p-8 space-y-6"
           >
             <div>
               <h2 className="text-2xl font-bold text-white">
@@ -122,10 +122,10 @@ export default function Contact() {
               <textarea
                 id="message"
                 name="message"
-                rows={4}
+                rows={10}
                 required
                 placeholder="Describe your project, goals, and any specific requirements..." 
-                className="mt-2 w-full rounded-md border border-gray-300 px-4 py-2 text-white focus:border-indigo-500 placeholder:text-blue-200 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                className="mt-2 w-full max-w-3xl rounded-md border border-gray-300 px-4 py-2 text-white focus:border-indigo-500 placeholder:text-blue-200 focus:outline-none focus:ring-2 focus:ring-indigo-500"
               />
             </div>
 

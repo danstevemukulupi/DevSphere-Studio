@@ -11,7 +11,7 @@ export default function Homep() {
   return (
    <> 
     {/*<Navbar />*/}
-    <div className="flex flex-col items-center justify-center   py-70 bg-gray-800">
+    <div className="flex flex-col items-center justify-center   py-40 bg-gray-800">
       <h1 className="text-7xl font-bold mb-6">Engineering Your Vision,<br/>One Line of Code at a Time.</h1>
       <p className="mt-4 text-2xl text-blue-200 mb-6">
       Welcome to DevSphere Studio, where innovative ideas are <br />
@@ -28,8 +28,8 @@ export default function Homep() {
                 </Link>
             </div>
     </div>
-    <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-gray-900"> 
-      <h1 className="text-4xl font-bold text-white mt-2">What I Build</h1>
+    <div className="flex flex-col items-center justify-center  py-20 bg-gray-900"> 
+      <h1 className="text-4xl font-bold text-white mt-0">What I Build</h1>
       <p className="mt-4 text-xl text-blue-200">Specializing in a wide range of development services to meet your business needs.</p>
       
       <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mt-10 max-w-8xl  mx-auto">  
@@ -150,7 +150,7 @@ export default function Homep() {
             
           </Link>
       </div>
-     <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-gray-800">
+     <div className="flex flex-col items-center justify-center  py-16 bg-gray-800">
       <h1 className="text-4xl font-bold text-white mt-10">Features Projects</h1>
       <p className="mt-4 text-xl text-blue-200">A glimpse into the quality and creativity of my work.</p>
       

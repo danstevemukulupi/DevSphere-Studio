@@ -5,7 +5,7 @@ export default function AIAssistant() {
   return (
     <>
       {/*<Navbar />*/}
-      <section className="min-h-screen bg-gray-800 text-white py-20 px-6">
+      <section className="min-h-screen bg-gray-800 text-white py-40 px-6">
         <div className="max-w-6xl mx-auto flex flex-col items-center">
 
           {/* Heading */}
@@ -28,7 +28,7 @@ export default function AIAssistant() {
           <form
             action="#"
             method="POST"
-            className="mt-12 w-full max-w-200  bg-gray-700  rounded-xl shadow-xl p-8 space-y-6"
+            className="mt-12 w-full  max-w-6xl  bg-gray-700  rounded-xl shadow-xl p-8 space-y-10"
           >
             
 

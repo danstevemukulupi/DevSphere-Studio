@@ -11,13 +11,13 @@ export default function Portfolio() {
         <br />
         <br />
         <br />
-        <h1 className="text-5xl font-bold">My Work</h1>
-        <p className="mt-4 text-xl text-blue-200">
+        <h1 className="text-5xl font-bold mb-2">My Work</h1>
+        <p className="mt-4 text-xl text-blue-200 mb-2">
           Here is a selection of projects that showcase my skills and dedication to quality. Each<br />
           project represents a unique challenge and a successful solution.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10 max-w-6xl mx-auto"> 
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10  max-w-screen-2xl mx-auto "> 
       <div className="bg-gray-700 rounded-xl shadow-lg  hover:shadow-2xl transition-shadow duration-300
       border border-gray-700 
       hover:border-blue-400 
@@ -49,7 +49,7 @@ export default function Portfolio() {
         
           <h1 className="text-lg font-semibold text-white bg-gray-600  px-2 py-2 rounded">Solidity</h1>
        
-          <h1 className="text-lg font-semibold text-white bg-gray-600  px-2 py-2 rounded mb-4">Hardhat</h1>
+          <h1 className="text-lg font-semibold text-white bg-gray-600  px-2 py-2 rounded mb-3">Hardhat</h1>
 
         </div>
          <div className="space-x-4 container mx-auto text-center">
@@ -99,7 +99,7 @@ export default function Portfolio() {
         
           <h1 className="text-lg font-semibold text-white bg-gray-600  px-2 py-2 rounded">Tailwind</h1>
        
-          <h1 className="text-lg font-semibold text-white bg-gray-600  px-2 py-2 rounded mb-4">Flask SQLite</h1>
+          <h1 className="text-lg font-semibold text-white bg-gray-600  px-2 py-2 rounded mb-6">Flask SQLite</h1>
 
         </div>
          <div className="space-x-4 container mx-auto text-center">
@@ -151,7 +151,7 @@ export default function Portfolio() {
 
           <h1 className="text-lg font-semibold text-white bg-gray-600  px-2 py-2 rounded ">React</h1>
 
-          <h1 className="text-lg font-semibold text-white bg-gray-600  px-2 py-2 rounded mb-6">Node.js</h1>
+          <h1 className="text-lg font-semibold text-white bg-gray-600  px-2 py-2 rounded mb-1">Node.js</h1>
         
         </div>
          <div className="space-x-4 container mx-auto text-center">
@@ -199,7 +199,7 @@ export default function Portfolio() {
          
           <h1 className="text-lg font-semibold text-white bg-gray-600  px-2 py-2 rounded">PostgreSQL</h1>
         
-          <h1 className="text-lg font-semibold text-white bg-gray-600  px-2 py-2 rounded mb-4">HTML</h1>
+          <h1 className="text-lg font-semibold text-white bg-gray-600  px-2 py-2 rounded mb-8">HTML</h1>
         </div>
          <div className="space-x-4 container mx-auto text-center">
           <br/> 
@@ -248,7 +248,7 @@ export default function Portfolio() {
         
           <h1 className="text-lg font-semibold text-white bg-gray-600  px-2 py-2 rounded">JavaScript</h1>
 
-          <h1 className="text-lg font-semibold text-white bg-gray-600  px-2 py-2 rounded mb-4">Bootstrap</h1>
+          <h1 className="text-lg font-semibold text-white bg-gray-600  px-2 py-2 rounded mb-3">Bootstrap</h1>
         </div>
          <div className="space-x-4 container mx-auto text-center">
           <br/>
@@ -300,7 +300,7 @@ export default function Portfolio() {
         
           <h1 className="text-lg font-semibold text-white bg-gray-600  px-2 py-2 rounded">JavaScript</h1>
 
-          <h1 className="text-lg font-semibold text-white bg-gray-600  px-2 py-2 rounded mb-4">Bootstrap</h1>
+          <h1 className="text-lg font-semibold text-white bg-gray-600  px-2 py-2 rounded mb-3">Bootstrap</h1>
         </div>
          <div className="space-x-4 container mx-auto text-center">
           <br/>
