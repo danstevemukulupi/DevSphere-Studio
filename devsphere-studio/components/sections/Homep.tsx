@@ -12,8 +12,8 @@ export default function Homep() {
    <> 
     <Navbar />
     <div className="flex flex-col items-center justify-center   py-70 bg-gray-800">
-      <h1 className="text-7xl font-bold ">Engineering Your Vision,<br/>One Line of Code at a Time.</h1>
-      <p className="mt-4 text-2xl text-blue-200 ">
+      <h1 className="text-7xl font-bold mb-6">Engineering Your Vision,<br/>One Line of Code at a Time.</h1>
+      <p className="mt-4 text-2xl text-blue-200 mb-6">
       Welcome to DevSphere Studio, where innovative ideas are <br />
       transformed into powerfull software solutions. From sleek websites<br />
       to complex enterorise systems, let's build the future together.
@@ -33,7 +33,12 @@ export default function Homep() {
       <p className="mt-4 text-xl text-blue-200">Specializing in a wide range of development services to meet your business needs.</p>
       
       <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mt-10 max-w-8xl  mx-auto">  
-            <div className="bg-gray-700 rounded-xl shadow-lg  hover:shadow-2xl transition-shadow duration-300">
+            <div className="bg-gray-700 rounded-xl shadow-lg  hover:shadow-2xl transition-shadow duration-300
+            border border-gray-700 
+            hover:border-blue-400 
+            hover:shadow-[0_0_15px_rgba(59,130,246,0.8)]
+            transition-all 
+            duration-300">
               <div className="flex items-center justify-center h-40">
                 <Image
                   src="/coding.png"
@@ -54,7 +59,12 @@ export default function Homep() {
           </div>
           </div>
       
-            <div className="bg-gray-700 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
+            <div className="bg-gray-700 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300
+            border border-gray-700 
+            hover:border-blue-400 
+            hover:shadow-[0_0_15px_rgba(59,130,246,0.8)]
+            transition-all 
+            duration-300">
                <div className="flex items-center justify-center h-40">
                 <Image
                   src="/phoneee.png"
@@ -76,7 +86,12 @@ export default function Homep() {
           </div>
           </div>
       
-          <div className="bg-gray-700 rounded-xl shadow-lg  hover:shadow-2xl transition-shadow duration-300">
+          <div className="bg-gray-700 rounded-xl shadow-lg  hover:shadow-2xl transition-shadow duration-300
+          border border-gray-700 
+          hover:border-blue-400 
+          hover:shadow-[0_0_15px_rgba(59,130,246,0.8)]
+          transition-all 
+          duration-300">
              <div className="flex items-center justify-center h-40">
                 <Image
                   src="/game.png"
@@ -97,7 +112,12 @@ export default function Homep() {
           </div>
           </div>
 
-            <div className="bg-gray-700 rounded-xl shadow-lg  hover:shadow-2xl transition-shadow duration-300">
+            <div className="bg-gray-700 rounded-xl shadow-lg  hover:shadow-2xl transition-shadow duration-300
+            border border-gray-700 
+            hover:border-blue-400 
+            hover:shadow-[0_0_15px_rgba(59,130,246,0.8)]
+            transition-all 
+            duration-300">
                <div className="flex items-center justify-center h-40">
                 <Image
                   src="/custom1.png"
@@ -135,7 +155,12 @@ export default function Homep() {
       <p className="mt-4 text-xl text-blue-200">A glimpse into the quality and creativity of my work.</p>
       
        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10 max-w-8xl mx-auto"> 
-            <div className="bg-gray-700 rounded-xl shadow-lg  hover:shadow-2xl transition-shadow duration-300">
+            <div className="bg-gray-700 rounded-xl shadow-lg  hover:shadow-2xl  transition-shadow duration-300
+            border border-gray-700 
+            hover:border-blue-400 
+            hover:shadow-[0_0_15px_rgba(59,130,246,0.8)]
+            transition-all 
+            duration-300">
               <div className="relative w-full h-48 md:h-56">
                 <Image
                   src="/mapovote.png"
@@ -146,7 +171,7 @@ export default function Homep() {
                 />
               </div>
               <br />
-              <div className="p-8">
+              <div className="p-8 ">
               <h2 className="text-2xl font-bold text-white-600 mb-4">Blockchain-Based Secure E-Voting DApp</h2>
               <p className="text-blue-200">
                 A decentralized application for secure and transparent electronic voting. <br />
@@ -155,7 +180,12 @@ export default function Homep() {
               </p>   
           </div>
           </div>
-            <div className="bg-gray-700 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
+            <div className="bg-gray-700 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300
+            border border-gray-700 
+            hover:border-blue-400 
+            hover:shadow-[0_0_15px_rgba(59,130,246,0.8)]
+            transition-all 
+            duration-300">
                <div className="relative w-full h-48 md:h-56">
                 <Image
                   src="/Social-Media-Content.png"
@@ -177,7 +207,12 @@ export default function Homep() {
           </div>
           </div>
 
-            <div className="bg-gray-700 rounded-xl shadow-lg  hover:shadow-2xl transition-shadow duration-300">
+            <div className="bg-gray-700 rounded-xl shadow-lg  hover:shadow-2xl transition-shadow duration-300
+            border border-gray-700 
+            hover:border-blue-400 
+            hover:shadow-[0_0_15px_rgba(59,130,246,0.8)]
+            transition-all 
+            duration-300">
                <div className="relative w-full h-48 md:h-56">
                 <Image
                   src="/Screen-Time-Tracker.png"
@@ -212,7 +247,7 @@ export default function Homep() {
       <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-gray-900">
         <div className="flex items-center justify-center h-40 mb-50">
                 <Image
-                  src="/idea.png"
+                  src="/idea-final.png"
                   alt="project idea"
                   width={1800}
                   height={1800}

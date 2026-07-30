@@ -8,13 +8,13 @@ export default function Atugymtracker() {
     <>  
     <Navbar />
     <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-gray-800">
+      <h2 className="text-4xl font-bold text-white-600 mb-10 mt-10">Atu Gym Tracker</h2>
    {/* Background Video */}
         <video
           loop
-          muted
           playsInline
           controls
-          className="w-4/5 max-5xl rounded-xl shadow-xl"
+          className="w-4/5 max-5xl rounded-xl shadow-xl mb-10"
         >
           <source src="/Atu-Fitness-App-Sound.mp4" type="video/mp4" />
         </video>

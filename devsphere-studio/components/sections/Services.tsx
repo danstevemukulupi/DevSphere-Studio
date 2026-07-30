@@ -18,7 +18,12 @@ export default function Services() {
       
      
      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-10 max-w-6xl mx-auto"> 
-      <div className="bg-gray-700 rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
+      <div className="bg-gray-700 rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300
+      border border-gray-700 
+      hover:border-blue-400 
+      hover:shadow-[0_0_15px_rgba(59,130,246,0.8)]
+      transition-all 
+      duration-300">
         <h2 className="text-2xl font-bold text-white-600 mb-4">Web Development</h2>
         <p className="text-blue-200">
            Full-Stack Development web development services, from single-page applications to large-scale
@@ -28,7 +33,12 @@ export default function Services() {
     </div>
 
    
-      <div className="bg-gray-700 rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
+      <div className="bg-gray-700 rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300
+      border border-gray-700 
+      hover:border-blue-400 
+      hover:shadow-[0_0_15px_rgba(59,130,246,0.8)]
+      transition-all 
+      duration-300">
         <h2 className="text-2xl font-bold text-white-600 mb-4">Mobile Apps</h2>
         <p className="text-blue-200">
            Leveraging frameworks like React Native to build applications that run smoothly on both
@@ -38,7 +48,12 @@ export default function Services() {
     </div>
 
     
-      <div className="bg-gray-700 rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
+      <div className="bg-gray-700 rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300
+      border border-gray-700 
+      hover:border-blue-400 
+      hover:shadow-[0_0_15px_rgba(59,130,246,0.8)]
+      transition-all 
+      duration-300">
         <h2 className="text-2xl font-bold text-white-600 mb-4">Game Development</h2>
         <p className="text-blue-200">
            Specializing in indie and commercial game development using engines like Unity and
@@ -48,7 +63,12 @@ export default function Services() {
     </div>
 
      
-      <div className="bg-gray-700 rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
+      <div className="bg-gray-700 rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300
+      border border-gray-700 
+      hover:border-blue-400 
+      hover:shadow-[0_0_15px_rgba(59,130,246,0.8)]
+      transition-all 
+      duration-300">
         <h2 className="text-2xl font-bold text-white-600 mb-4">Custom Systems</h2>
         <p className="text-blue-200">
            Creating custom software solutions such as CRM systems, backend APIs, data

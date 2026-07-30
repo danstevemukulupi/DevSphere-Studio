@@ -18,7 +18,12 @@ export default function Portfolio() {
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10 max-w-6xl mx-auto"> 
-      <div className="bg-gray-700 rounded-xl shadow-lg  hover:shadow-2xl transition-shadow duration-300">
+      <div className="bg-gray-700 rounded-xl shadow-lg  hover:shadow-2xl transition-shadow duration-300
+      border border-gray-700 
+      hover:border-blue-400 
+      hover:shadow-[0_0_15px_rgba(59,130,246,0.8)]
+      transition-all 
+      duration-300">
         <div className="relative w-full h-48 md:h-56">
           <Image
             src="/mapovote.png"
@@ -52,14 +57,24 @@ export default function Portfolio() {
                 <Link href="/mapovote">
                 <button className="bg-gray-900 hover:bg-blue-700 text-white py-2 px-4 rounded">Live Demo</button>
                 </Link>
+                <a href="https://github.com/danstevemukulupi/BLOCKCHAIN-BASED-SECURED-ELECTRONIC-VOTING-DAPP"
+                target="_blank"
+                rel="noopener noreferrer"
+                > 
                 <button className="bg-gray-900 hover:bg-blue-700 text-white py-2 px-4 rounded mb-2">View Code</button>
+                </a>
                 
             </div>
     </div>
     </div>
 
    
-      <div className="bg-gray-700 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
+      <div className="bg-gray-700 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300
+      border border-gray-700 
+      hover:border-blue-400 
+      hover:shadow-[0_0_15px_rgba(59,130,246,0.8)]
+      transition-all 
+      duration-300">
          <div className="relative w-full h-48 md:h-56">
           <Image
             src="/social-Media-Content.png"
@@ -92,12 +107,22 @@ export default function Portfolio() {
                 <Link href="/socialmedia"> 
                 <button className="bg-gray-900 hover:bg-blue-700 text-white py-2 px-4 rounded">Live Demo</button>
                 </Link>
+                <a href="https://github.com/danstevemukulupi/SOCIAL-MEDIA-CONTENT-PLANNER"
+                target="_blank"
+                rel="noopener noreferrer"
+                > 
                 <button className="bg-gray-900 hover:bg-blue-700 text-white py-2 px-4 rounded">View Code</button>
+                </a>
             </div>
     </div>
     </div>
 
-    <div className="bg-gray-700 rounded-xl shadow-lg  hover:shadow-2xl transition-shadow duration-300">
+    <div className="bg-gray-700 rounded-xl shadow-lg  hover:shadow-2xl transition-shadow duration-300
+    border border-gray-700 
+    hover:border-blue-400 
+    hover:shadow-[0_0_15px_rgba(59,130,246,0.8)]
+    transition-all 
+    duration-300">
        <div className="relative w-full h-48 md:h-56">
           <Image
             src="/Atu-Gym-App.png"
@@ -134,12 +159,22 @@ export default function Portfolio() {
                 <Link href="/atugymtracker"> 
                 <button className="bg-gray-900 hover:bg-blue-700 text-white py-2 px-4 rounded">Live Demo</button>
                 </Link>
+                 <a href="https://github.com/danstevemukulupi/ATU-GYM-TRACKER/tree/main"
+                target="_blank"
+                rel="noopener noreferrer"
+                >
                 <button className="bg-gray-900 hover:bg-blue-700 text-white py-2 px-4 rounded">View Code</button>
+                </a>
             </div>
     </div>
     </div>
 
-    <div className="bg-gray-700 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
+    <div className="bg-gray-700 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300
+    border border-gray-700 
+    hover:border-blue-400 
+    hover:shadow-[0_0_15px_rgba(59,130,246,0.8)]
+    transition-all 
+    duration-300">
        <div className="relative w-full h-48 md:h-56">
           <Image
             src="/Screen-Time-Tracker.png"
@@ -171,13 +206,23 @@ export default function Portfolio() {
                 <Link href="/screentimetracker"> 
                 <button className="bg-gray-900 hover:bg-blue-700 text-white py-2 px-4 rounded">Live Demo</button>
                 </Link>
+                 <a href="https://github.com/danstevemukulupi/Screen-Time-Tracker"
+                target="_blank"
+                rel="noopener noreferrer"
+                > 
                 <button className="bg-gray-900 hover:bg-blue-700 text-white py-2 px-4 rounded">View Code</button>
+                </a>
             </div>
     </div>
     </div>
 
 
-      <div className="bg-gray-700 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
+      <div className="bg-gray-700 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300
+      border border-gray-700 
+      hover:border-blue-400 
+      hover:shadow-[0_0_15px_rgba(59,130,246,0.8)]
+      transition-all 
+      duration-300">
          <div className="relative w-full h-48 md:h-56">
           <Image
             src="/Nike-Shoes.png"
@@ -212,13 +257,23 @@ export default function Portfolio() {
                 <Link href="/nikeshoes"> 
                 <button className="bg-gray-900 hover:bg-blue-700 text-white py-2 px-4 rounded">Live Demo</button>
                 </Link>
+                 <a href="https://github.com/danstevemukulupi/Nike-Shoes-Website"
+                target="_blank"
+                rel="noopener noreferrer"
+                > 
                 <button className="bg-gray-900 hover:bg-blue-700 text-white py-2 px-4 rounded">View Code</button>
+                </a>
             </div>
     </div>
     </div>
 
      
-      <div className="bg-gray-700 rounded-xl shadow-lg  hover:shadow-2xl transition-shadow duration-300">
+      <div className="bg-gray-700 rounded-xl shadow-lg  hover:shadow-2xl transition-shadow duration-300
+      border border-gray-700 
+      hover:border-blue-400 
+      hover:shadow-[0_0_15px_rgba(59,130,246,0.8)]
+      transition-all 
+      duration-300">
          <div className="relative w-full h-48 md:h-56">
           <Image
             src="/Hitting-Game.png"
@@ -254,7 +309,12 @@ export default function Portfolio() {
                 <Link href="/hittinggame">
                 <button className="bg-gray-900 hover:bg-blue-700 text-white py-2 px-4 rounded">Live Demo</button>
                 </Link>
+                 <a href="https://github.com/danstevemukulupi/HITTING-BALL-GAME"
+                target="_blank"
+                rel="noopener noreferrer"
+                > 
                 <button className="bg-gray-900 hover:bg-blue-700 text-white py-2 px-4 rounded">View Code</button>
+                </a>
             </div>
     </div>
     </div>
