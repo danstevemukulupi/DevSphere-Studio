@@ -138,7 +138,7 @@ export default function Homep() {
             <div className="bg-gray-700 rounded-xl shadow-lg  hover:shadow-2xl transition-shadow duration-300">
               <div className="relative w-full h-48 md:h-56">
                 <Image
-                  src="/ecommercee.jpeg"
+                  src="/mapovote.png"
                   alt="ecommercee project"
                   fill
                   className="object-cover"
@@ -158,7 +158,7 @@ export default function Homep() {
             <div className="bg-gray-700 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
                <div className="relative w-full h-48 md:h-56">
                 <Image
-                  src="/task.png"
+                  src="/Social-Media-Content.png"
                   alt="task project"
                   fill
                   className="object-cover"
@@ -180,7 +180,7 @@ export default function Homep() {
             <div className="bg-gray-700 rounded-xl shadow-lg  hover:shadow-2xl transition-shadow duration-300">
                <div className="relative w-full h-48 md:h-56">
                 <Image
-                  src="/analytic.png"
+                  src="/Screen-Time-Tracker.png"
                   alt="analytics project"
                   fill
                   className="object-cover"

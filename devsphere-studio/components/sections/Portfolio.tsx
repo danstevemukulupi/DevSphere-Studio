@@ -111,19 +111,23 @@ export default function Portfolio() {
         <div className="p-8">
         <h2 className="text-2xl font-bold text-white-600 mb-4">Atu Gym Tracker</h2>
         <p className="text-blue-200">
-           A tool for monitoring and analyzing screen time usage. <br />
-           Provides insights into user behavior <br />
-           and helps manage digital well-being.<br />
-           Tracks and reports on screen time, helping users understand their digital habits.
-           Prevents overuse and promotes healthier digital habits.
+
+           This is a full-stack web application for fitness <br />
+           enthusiasts to track their workout progress, set fitness goals, <br />
+           and connect with other users.<br />
+           The app provides a comprehensive platform for managing workouts, <br/ >
+           nutrition, and overall fitness journey.
+
         </p> 
          <div className="flex flex-wrap gap-3 container mx-auto mt-4">
-          <h1 className="text-lg font-semibold text-white bg-gray-600  px-2 py-2 rounded">Ruby on Rails</h1>
+          <h1 className="text-lg font-semibold text-white bg-gray-600  px-2 py-2 rounded">MongoDb</h1>
          
-          <h1 className="text-lg font-semibold text-white bg-gray-600  px-2 py-2 rounded">PostgreSQL</h1>
+          <h1 className="text-lg font-semibold text-white bg-gray-600  px-2 py-2 rounded">Express.js</h1>
+
+          <h1 className="text-lg font-semibold text-white bg-gray-600  px-2 py-2 rounded ">React</h1>
+
+          <h1 className="text-lg font-semibold text-white bg-gray-600  px-2 py-2 rounded mb-6">Node.js</h1>
         
-          <h1 className="text-lg font-semibold text-white bg-gray-600  px-2 py-2 rounded mb-4">HTML</h1>
-          
         </div>
          <div className="space-x-4 container mx-auto text-center">
           <br/>
@@ -203,6 +207,8 @@ export default function Portfolio() {
         </div>
          <div className="space-x-4 container mx-auto text-center">
           <br/>
+          <br/>
+          <br/>
                 <Link href="/nikeshoes"> 
                 <button className="bg-gray-900 hover:bg-blue-700 text-white py-2 px-4 rounded">Live Demo</button>
                 </Link>
@@ -243,6 +249,8 @@ export default function Portfolio() {
         </div>
          <div className="space-x-4 container mx-auto text-center">
           <br/>
+          <br />
+          <br />
                 <Link href="/hittinggame">
                 <button className="bg-gray-900 hover:bg-blue-700 text-white py-2 px-4 rounded">Live Demo</button>
                 </Link>
